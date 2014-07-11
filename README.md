@@ -25,12 +25,7 @@ In your project's Gruntfile, add a section named `flight_lint` to the data objec
 ```js
 grunt.initConfig({
   flight_lint: {
-    options: {
-      // Task-specific options go here.
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    },
+    files: { src: ['scripts/flight/**/*.js'] }
   },
 })
 ```
